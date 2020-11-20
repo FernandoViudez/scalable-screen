@@ -1,0 +1,19 @@
+.scaleable-wrapper {
+  resize: both;
+  position: relative;
+  background: black;
+  max-height: 1920px;
+  overflow: hidden;
+}
+
+.wrapperChild {
+  width: 1920px;
+  height: 1080px;
+  text-align: center;
+  background: blue;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+}
